@@ -6,29 +6,33 @@ body{
     vertical-align: middle;
 }
 html{
-    background: radial-gradient( aqua, teal, black);
+    background: linear-gradient( aqua, darkturquoise, teal);
     color: white;
     height: 100%;
     text-align: center;
+    font-family: cursive;
 }
 input{
-    background-color: rgb(233, 164, 16);
+    background-color: mediumseagreen;
     color: indigo;
     border: 2px solid  indigo;
-    box-shadow: indigo 3px 3px 3px;
+    box-shadow: teal 3px 3px 3px;
     
 }
 
 button{
-    background-color: rgb(219, 146, 50);
-    color:  (41, 23, 0);
-    border: 2px solid  black;
+    background-color: mediumseagreen;
+    border: 2px outset olivedrab;
+    color: midnightblue;
     margin: 2px;
     font-size: 15px;
-    box-shadow: indigo 3px 3px 3px;
+    box-shadow: teal 3px 3px 3px;
+    font-size: 2em;
+    font-family: cursive;
 }
 form, p{
-    color:rgb(236, 178, 71);
+    color:rgb(62, 187, 118);
     font-size: 20px;
-    text-shadow: black 2px 2px 2px;
+    text-shadow: rgb(0, 75, 75) 0px 0px 1px, rgb(0, 75, 75) 0px 0px 2px, rgb(0, 75, 75) 0px 0px 3px, rgb(0, 75, 75) 0px 0px 4px, rgb(0, 75, 75) 0px 0px 5px;
+    font-size: 2em;
 }
